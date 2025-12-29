@@ -67,11 +67,11 @@ def analyze_toc_for_executive_summary(toc_text):
                 ("What is RAG?", 106, 106, True),  # Keep
                 ("What are vector databases?", 107, 108, True),  # Keep
                 ("The purpose of vector databases in RAG", 109, 112, False),
-                ("Workflow of a RAG system", 113, 117, True),  # Keep
-                ("5 chunking strategies for RAG", 118, 123, False),  # Skip details
-                ("Prompting vs. RAG vs. Finetuning?", 124, 125, True),
-                ("8 RAG architectures", 126, 127, True), 
-                ("RAG vs Agentic RAG", 128, 130, True),  # Keep comparison
+                ("Workflow of a RAG system", 113, 119, True),  # Keep
+                ("5 chunking strategies for RAG", 120, 124, False),  # Skip details
+                ("Prompting vs. RAG vs. Finetuning?", 125, 126, True),
+                ("8 RAG architectures", 127, 129, True), 
+                ("RAG vs Agentic RAG", 130, 130, False),  # Keep comparison
                 ("Traditional RAG vs HyDE", 131, 133, False),  # Skip
                 ("Full-model Fine-tuning vs. LoRA vs. RAG", 134, 138, False),  # Keep comparison
                 ("RAG vs REFRAG", 139, 140, False),  # Skip
